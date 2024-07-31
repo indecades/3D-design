@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Spline from "@splinetool/react-spline";
+import Starfield from "react-starfield";
+import TopBanner from "./components/banner.tsx";
+import "./css/top-banner.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopBanner />
+      <Spline scene="https://prod.spline.design/7R4H3NSb4rrOWPGi/scene.splinecode" />
+      <Starfield
+        starCount={2000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.05}
+        backgroundColor="black"
+      ></Starfield>
     </div>
   );
 }
-
-export default App;
