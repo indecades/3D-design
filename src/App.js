@@ -1,7 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import Starfield from "react-starfield";
 import TopBanner from "./components/banner.tsx";
-import "./css/top-banner.css";
 
 export default function App() {
   return (
