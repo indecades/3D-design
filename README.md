@@ -1,6 +1,6 @@
 # Getting Started with GEO nexus
 
-Welcome to the TravelCo project! 🌍
+Welcome to the GEO nexus project! 🌍
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
