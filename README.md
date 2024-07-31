@@ -25,6 +25,14 @@ Experience TravelCo like never before with our interactive 3D Earth model! 🌍
 
 Created using Spline, this cutting-edge visualization offers an engaging way to explore and interact with our planet. Perfect for developers, designers, or anyone curious about innovative 3D content.
 
+## ✨ Dynamic Starfield Background
+
+The mesmerizing starfield background in the project is powered by react-starfield.
+
+### Adjustable Star Count
+
+You can easily decrease or increase the number of stars by adjusting the starCount parameter. This allows you to customize the starfield effect to your preference.
+
 ## 🌐 Deployment
 
 The project has been successfully deployed using Render. 
