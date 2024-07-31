@@ -1,4 +1,4 @@
-# Getting Started with TravelCo
+# Getting Started with GEO nexus
 
 Welcome to the TravelCo project! 🌍
 
