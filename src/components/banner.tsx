@@ -4,9 +4,13 @@ import "../css/top-banner.css";
 const TopBanner: React.FC = () => {
   return (
     <div className="top-banner">
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Orbitron&family=Lobster&display=swap"
+      ></link>
       <h1>
-        <span className="light">Travel</span>
-        <span className="dark"> Co</span>
+        <span className="light">Geo</span>
+        <span className="dark">Nexus</span>
       </h1>
 
       <div className="search-bar">
